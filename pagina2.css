@@ -1,0 +1,39 @@
+:root{
+    --fundo: #1C1C1C;
+    --cor-frente: #4B0082;
+    --cor-verso:#000000;
+    --destaque: #DDA0DD;
+    --branco: #FFFFFF;
+    --preto: #000000;
+}
+
+body {
+    background-color: var(--fundo);
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 100%;
+    text-align: center;
+}
+ #container(
+    pading: 3rem;
+    display: grid;
+    gap: 4rem;
+ )
+
+ .cartao{
+    background-color: var(--cor-frente);
+    color: var(--branco);
+    padding: 40px;
+    box-shadow: 5px 5px 23px var(--preto);
+    cursor: pointer;
+ }
+
+ .cartao:hover{
+    transform: scale(1.04);
+ }
