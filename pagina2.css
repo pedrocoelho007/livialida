@@ -20,11 +20,11 @@ footer {
     width: 100%;
     text-align: center;
 }
- #container(
+ #container{
     pading: 3rem;
     display: grid;
     gap: 4rem;
- )
+}
 
  .cartao{
     background-color: var(--cor-frente);
