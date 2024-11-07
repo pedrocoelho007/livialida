@@ -25,11 +25,13 @@ header a {
 footer {
     position: fixed;
     bottom: 0;
-    background-color: var(--preto);
+    background-color: var(--cor-verso);
     color: var(--branco);
     width: 100%;
     text-align: center;
+    border: 3px solid var(--destaque);
 }
+
  #container{
     pading: 3rem;
     display: grid;
