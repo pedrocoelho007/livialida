@@ -33,7 +33,7 @@ footer {
 }
 
  #container{
-    pading: 3rem;
+    padding: 3rem;
     display: grid;
     gap: 4rem;
 }
@@ -51,7 +51,7 @@ footer {
  }
 
  .resposta-cartao{
-    background-color: var(--cor-frente)
+    background-color: var(--cor-frente);
     padding: 40px;
     display: none;
  }
